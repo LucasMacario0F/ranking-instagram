@@ -2,7 +2,7 @@ name: Atualizar Dados do Instagram
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Executa diariamente às 3AM (horário UTC)
+    - cron: '0 4 * * *'  # Executa diariamente às 3AM (horário UTC)
   workflow_dispatch:  # Permite acionar manualmente
 
 jobs:
